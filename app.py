@@ -55,7 +55,7 @@ df = load_data()
 # Display title and description of the project.
 # =====================================================
 st.title("🌾 AgriFlow")
-st.subheader("AI Powered Crop Distribution Optimizer")
+st.subheader("Crop Distribution Optimizer")
 
 st.write("""
 Distribute agricultural produce intelligently across multiple
@@ -182,7 +182,7 @@ if generate:
     # DISTRIBUTION TABLE
     # Displays city-wise AI recommendation.
     # =================================================
-    st.subheader("📋 AI Distribution Plan")
+    st.subheader("📋 Smart Distribution Plan")
 
     display = result[
         [
